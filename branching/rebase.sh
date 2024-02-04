@@ -3,7 +3,7 @@
 
 count=1
 for param in "$@"; do
-    echo "\$@ Parameter # = "
+    echo "\$@ Parameter #$count = $param"
     count=1
 done
 
